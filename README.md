@@ -5,11 +5,11 @@
 ```
 /mute <player> <time> [reason]
 ```
-<> - required options
-[] - optional
+\<\> - required options
+\[\] - optional
 
-<player> - player name
-<time> - amount of time with prefixes
+\<player\> - player name
+\<time\> - amount of time with prefixes
 ```
   d - days
   h - hours
@@ -24,16 +24,21 @@
 ## config
 
 Variables:
+```
   {player} - target player
   {amount} - formated amount of time
   {executor} - /mute command executor
   {reason} - reason of mute
+```
 
 playerMutedInfo - information of mute for executor
+
 playerMuteAnnounce - information of mute for player
+
 enablePublicAnnouncement - send playerMutedInfo to all players
 
 muteAnnounce - message when muted player tries to write
+
 enableMuteAnnounce - toggle MuteAnnounce message
   
 permission - edit permission to use mute/unmute commands
