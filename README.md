@@ -6,16 +6,17 @@
 /mute <player> <time> [reason]
 ```
 <> - required options
-
+[] - optional
 
 <player> - player name
 <time> - amount of time with prefixes
+```
   d - days
   h - hours
   m - minutes
   s - seconds
   e.g /mute Player 1d0h30m - will mute for 1 day and 30 minutes
-
+```
 ## Permissions
 ```
   chatmute.commands - grant permission to use mute/unmute commands
