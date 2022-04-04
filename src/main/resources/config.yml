@@ -1,0 +1,27 @@
+infostrings:
+  playerMutedInfo:
+    - "§7---------------------------------------"
+    - "§7Player §4[{player}] §7muted for §b{amount} §7by §6[{executor}]§7"
+    - "§7Reason: {reason}"
+    - "§7---------------------------------------"
+  enablePublicAnnouncement: true
+  playerMuteAnnounce:
+    - "§4---------------------------------------"
+    - "§4You've been muted for §b{amount} by §6[{executor}]"
+    - "§7Reason: {reason}"
+    - "§4---------------------------------------"
+
+announcement:
+  muteAnnounce:
+    - "§4---------------------------------------"
+    - "§4You've been muted for §b{amount} §4by §6[{executor}]: §7{reason}"
+    - "§4Expires in §b{expires}"
+    - "§4---------------------------------------"
+  enableMuteAnnounce: true
+
+help:
+  mute: "/mute"
+  unmute: "/unmute"
+  amount: "s - seconds, m - minutes, h - hours, d - days"
+
+permission: chatmute.commands

@@ -1,0 +1,13 @@
+name: ChatMute
+version: '${project.version}'
+main: com.chillcraft.chatmute.chatmute.ChatMute
+api-version: 1.18
+prefix: cmute
+authors: [ ChillCraftDevCommunity ]
+description: Chat mute
+website: https://chillcraft.online/
+commands:
+  mute:
+    usage: /mute <player> <time> [reason]
+  unmute:
+    usage: /unmute <player>
