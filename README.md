@@ -6,7 +6,7 @@
 /mute <player> <time> [reason]
 ```
 <> - required options
-[] - optional
+
 
 <player> - player name
 <time> - amount of time with prefixes
